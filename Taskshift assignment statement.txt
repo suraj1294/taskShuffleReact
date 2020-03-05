@@ -1,0 +1,5 @@
+1. onclicking any task its name should be populated in read only input feild
+2. if selected task is in stage 1 then "backword button should be disabled"
+3. if selected task is in last stage it "forward" button should be disaled
+4. after selecting task if backword is clicked the task should be added to its previous stage 
+OR if forward is clicked the task should be its next stage.
