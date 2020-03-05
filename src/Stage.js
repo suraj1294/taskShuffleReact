@@ -11,7 +11,6 @@ function Stage(props){
                   <Task 
                   task ={ task }
                   key= { task.taskName }
-                  getSelectedTask ={(name,taskstage) => props.getSelectedTask(name,taskstage)} 
                   />
            )
           }

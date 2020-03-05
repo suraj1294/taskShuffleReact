@@ -15,7 +15,6 @@ function Board(props){
                 key={stage}
                 stage={stage}
                 tasklist={props.tasklist.filter(task => task.taskStage === stage )}
-                getSelectedTask = { (name,taskstage) => props.getSelectedTask(name,taskstage)}
                />
                )
            })
